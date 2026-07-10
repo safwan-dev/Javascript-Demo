@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+ 
+.container {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+ 
+h1 {
+    text-align: center;
+    color: #333;
+}
+ 
+.input-area {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+ 
+#input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+#add {
+    padding: 8px 14px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+#add:hover {
+    background: #43a047;
+}
+ 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+ 
+li span {
+    flex: 1;
+    margin-left: 8px;
+}
+
+.complete-btn,
+.delete-btn {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.complete-btn {
+    background: #4c59af;
+    color: white;
+}
+
+.complete-btn:hover {
+    background: #4345a0;
+}
+
+.delete-btn:hover {
+    background: #c62828;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #999;
+}
