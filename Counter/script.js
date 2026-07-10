@@ -35,5 +35,6 @@ decrease.addEventListener('click', function() {
  
 reset.addEventListener('click', function() {
     count = 0
+    input.value = 1
     updateDisplay()
 })
